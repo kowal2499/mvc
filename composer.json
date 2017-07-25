@@ -1,0 +1,23 @@
+{
+    "require": {
+        "monolog/monolog": "^1.23",
+        "twig/twig": "^1.34"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bookstore\\": "src"
+        }
+    },
+
+    "name": "bookstore",
+    "description": "Manages an online bookstore.",
+    "minimum-stability": "stable",
+    "license": "Apache-2.0",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Roman Kowalski",
+            "email": "roman@erla.pl"
+        }
+    ]
+}
